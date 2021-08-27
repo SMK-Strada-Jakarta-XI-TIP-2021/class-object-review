@@ -5,8 +5,16 @@ const motor = {
     motorModel: 155,
     motorColor: "White",
     motorBerat: "125kg",
-    motorDetail: [merek, kapasitas, harga, dimensi]
-    
-    kondisiMotor : function() {
-      return
+    motorKondisi: true,
+    motorDetail: ['Merek','Kapasitas Bahan Bakar','Harga OTR','DiMensi'],
+
+    kondisiMotor: function() {
+    if(motorKondisi === true){
+    return 'Motor Kondisi Baru'
+    } else {
+    return 'Motor Kondisi Rusak'
+    }
+    }
 };
+
+console.log(motor); //hasil
