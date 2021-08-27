@@ -70,20 +70,20 @@ console.log(motor.transaksiPembelian(5, 'max'));
 console.log('                                 ');
 
 // memanggil objek dengan looping
-console.log('pemanggilan dengan looping');
-console.log('                       ')
-for (let x in motor) {
-    console.log(`${x} : ${motor[x]}`);
-    if (motor[x] === motor.kecepatan) {
-        break;
-    }
-}
-console.log(motor.cekPlatNomor());
-console.log(motor.cekKondisi());
-console.log(motor.cekStok());
-console.log(motor.cekKecepatan());
-console.log(motor.transaksiPembelian(2, 'sulthan'));
-console.log('                          ');
+// console.log('pemanggilan dengan looping');
+// console.log('                       ')
+// for (let x in motor) {
+//     console.log(`${x} : ${motor[x]}`);
+//     if (motor[x] === motor.kecepatan) {
+//         break;
+//     }
+// }
+// console.log(motor.cekPlatNomor());
+// console.log(motor.cekKondisi());
+// console.log(motor.cekStok());
+// console.log(motor.cekKecepatan());
+// console.log(motor.transaksiPembelian(2, 'sulthan'));
+// console.log('                          ');
 
 // bikin class
 class Kendaraan {
